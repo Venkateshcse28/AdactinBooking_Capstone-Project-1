@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AdactinHotelSuite" parallel="false">
+
+    <listeners>
+        <listener class-name="de.dimetis.guvi.report.ITestListenerImpl"/>
+    </listeners>
+
+    <test name="AdactinHotelTestFlow">
+        <classes>
+            <class name="de.dimetis.guvi.testcases.LoginPageTest"/>
+            <class name="de.dimetis.guvi.testcases.SearchHotelTestPage"/>
+            <class name="de.dimetis.guvi.testcases.SelectHotelTestPage"/>
+            <class name="de.dimetis.guvi.testcases.BookHotelTestPage"/>
+            <class name="de.dimetis.guvi.testcases.BookingConfirmationTestPage"/>
+        </classes>
+    </test>
+
+</suite>

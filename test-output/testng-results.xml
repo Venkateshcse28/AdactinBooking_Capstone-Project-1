@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Guvi Main Capstone Test Automation Project" duration-ms="43839" started-at="2025-04-06T19:30:46Z" finished-at="2025-04-06T19:31:30Z">
+    <groups>
+    </groups>
+    <test name="AdactinHotel Booking Application" duration-ms="43839" started-at="2025-04-06T19:30:46Z" finished-at="2025-04-06T19:31:30Z">
+      <class name="de.chennai.guvi.testcases.BookHotelTestPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.chennai.guvi.testcases.BookHotelTestPage@7a30d1e6]" name="setup" is-config="true" duration-ms="0" started-at="2025-04-06T19:31:13Z" finished-at="2025-04-06T19:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:de.chennai.guvi.testcases.BookHotelTestPage@7a30d1e6]" name="BookHotelTest" duration-ms="6914" started-at="2025-04-06T19:31:14Z" data-provider="data-provider" finished-at="2025-04-06T19:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venkat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LondonStreet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567812345678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2026]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotelTest -->
+      </class> <!-- de.chennai.guvi.testcases.BookHotelTestPage -->
+      <class name="de.chennai.guvi.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.chennai.guvi.testcases.LoginPageTest@33723e30]" name="setup" is-config="true" duration-ms="4619" started-at="2025-04-06T19:30:46Z" finished-at="2025-04-06T19:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:de.chennai.guvi.testcases.LoginPageTest@33723e30]" name="testLogin" duration-ms="6094" started-at="2025-04-06T19:30:51Z" data-provider="data-provider" finished-at="2025-04-06T19:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vencse28]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:de.chennai.guvi.testcases.LoginPageTest@33723e30]" name="tearDown" is-config="true" duration-ms="778" started-at="2025-04-06T19:31:30Z" finished-at="2025-04-06T19:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- de.chennai.guvi.testcases.LoginPageTest -->
+      <class name="de.chennai.guvi.testcases.SelectHotelTestPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.chennai.guvi.testcases.SelectHotelTestPage@553a3d88]" name="setup" is-config="true" duration-ms="0" started-at="2025-04-06T19:31:09Z" finished-at="2025-04-06T19:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SelectHotelTest()[pri:0, instance:de.chennai.guvi.testcases.SelectHotelTestPage@553a3d88]" name="SelectHotelTest" duration-ms="4929" started-at="2025-04-06T19:31:09Z" finished-at="2025-04-06T19:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHotelTest -->
+      </class> <!-- de.chennai.guvi.testcases.SelectHotelTestPage -->
+      <class name="de.chennai.guvi.testcases.SearchHotelTestPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.chennai.guvi.testcases.SearchHotelTestPage@64f6106c]" name="setup" is-config="true" duration-ms="0" started-at="2025-04-06T19:30:58Z" finished-at="2025-04-06T19:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:de.chennai.guvi.testcases.SearchHotelTestPage@64f6106c]" name="SearchHotelTest" duration-ms="10588" started-at="2025-04-06T19:30:58Z" data-provider="data-provider" finished-at="2025-04-06T19:31:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[06/05/2025]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[07/05/2025]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelTest -->
+      </class> <!-- de.chennai.guvi.testcases.SearchHotelTestPage -->
+      <class name="de.chennai.guvi.testcases.BookingConfirmationTestPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.chennai.guvi.testcases.BookingConfirmationTestPage@5891e32e]" name="setup" is-config="true" duration-ms="0" started-at="2025-04-06T19:31:20Z" finished-at="2025-04-06T19:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyBookingConfirmation()[pri:0, instance:de.chennai.guvi.testcases.BookingConfirmationTestPage@5891e32e]" name="verifyBookingConfirmation" duration-ms="9428" started-at="2025-04-06T19:31:20Z" finished-at="2025-04-06T19:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookingConfirmation -->
+      </class> <!-- de.chennai.guvi.testcases.BookingConfirmationTestPage -->
+    </test> <!-- AdactinHotel Booking Application -->
+  </suite> <!-- Guvi Main Capstone Test Automation Project -->
+</testng-results>

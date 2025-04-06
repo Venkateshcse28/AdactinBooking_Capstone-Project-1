@@ -1,0 +1,73 @@
+2025-04-07 01:00:46 INFO  ExtentReport:120 - Extent Report location initialized . . .
+2025-04-07 01:00:46 INFO  ProcessesTestCases:23 - Login test steps Validation
+2025-04-07 01:00:46 INFO  ProcessesTestCases:28 - Enter all booking details
+2025-04-07 01:00:46 INFO  ProcessesTestCases:33 - display and select the hotel
+2025-04-07 01:00:46 INFO  ProcessesTestCases:39 - Payment details filling page
+2025-04-07 01:00:46 INFO  ProcessesTestCases:44 - Booking Confirmation and Logout page
+2025-04-07 01:00:46 INFO  TestRunner:76 - TestCase/TestCases is/are loadded for execution.
+2025-04-07 01:00:47 INFO  WebDriverManager:600 - Using chromedriver 114.0.5735.90 (since Google Chrome 135 is installed in your machine)
+2025-04-07 01:00:47 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\Venkatesh\.m2\repository\webdriver\chromedriver\win64\114.0.5735.90\chromedriver.exe
+2025-04-07 01:00:49 INFO  BaseTest:81 - Successfully launched Chrome Browser.
+2025-04-07 01:00:51 INFO  BaseTest:43 - Successfully opened the URL.
+2025-04-07 01:00:51 INFO  ITestListenerImpl:227 - Execution started on UAT env ...
+2025-04-07 01:00:52 INFO  BasePage:46 - Successfully occur clear operation.
+2025-04-07 01:00:52 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:00:52 INFO  LoginPageTest:49 - Entered valid username
+2025-04-07 01:00:53 INFO  BasePage:46 - Successfully occur clear operation.
+2025-04-07 01:00:53 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:00:53 INFO  LoginPageTest:49 - Entered valid password
+2025-04-07 01:00:56 INFO  BasePage:36 - Successfully occur click operation.
+2025-04-07 01:00:56 INFO  LoginPageTest:49 - Clicked login button with valid credentials
+2025-04-07 01:00:58 INFO  LoginPageTest:49 - Successfully logged in and hotel heading validated
+2025-04-07 01:00:58 INFO  BaseTest:51 - Driver already initialized. Skipping URL reload.
+2025-04-07 01:00:59 INFO  SearchHotelTestPage:49 - Selected Location - <b><font color=yellow>London</font></b>
+2025-04-07 01:01:00 INFO  SearchHotelTestPage:49 - Selected Hotel - <b><font color=yellow>Hotel Sunshine</font></b>
+2025-04-07 01:01:01 INFO  SearchHotelTestPage:49 - Selected Room Type - <b><font color=yellow>Deluxe</font></b>
+2025-04-07 01:01:02 INFO  SearchHotelTestPage:49 - Selected Number of Rooms - <b><font color=yellow>1 - One</font></b>
+2025-04-07 01:01:03 INFO  BasePage:46 - Successfully occur clear operation.
+2025-04-07 01:01:03 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:01:03 INFO  SearchHotelTestPage:49 - Entered Check-In Date - <b><font color=yellow>06/05/2025</font></b>
+2025-04-07 01:01:04 INFO  BasePage:46 - Successfully occur clear operation.
+2025-04-07 01:01:04 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:01:04 INFO  SearchHotelTestPage:49 - Entered Check-Out Date - <b><font color=yellow>07/05/2025</font></b>
+2025-04-07 01:01:05 INFO  SearchHotelTestPage:49 - Selected Adults per Room - <b><font color=yellow>2 - Two</font></b>
+2025-04-07 01:01:06 INFO  SearchHotelTestPage:49 - Selected Children per Room - <b><font color=yellow>2 - Two</font></b>
+2025-04-07 01:01:07 INFO  BasePage:36 - Successfully occur click operation.
+2025-04-07 01:01:07 INFO  SearchHotelTestPage:49 - Clicked on Search Button
+2025-04-07 01:01:08 INFO  SearchHotelTestPage:49 - Successfully Navigated to Select Hotel Page
+2025-04-07 01:01:08 INFO  SearchHotelTestPage:89 - Hotel search executed - Screenshot
+2025-04-07 01:01:09 INFO  BaseTest:51 - Driver already initialized. Skipping URL reload.
+2025-04-07 01:01:11 INFO  JavaScriptExecutorUtil:60 - Executing Highlighting operation.
+2025-04-07 01:01:11 INFO  BasePage:36 - Successfully occur click operation.
+2025-04-07 01:01:12 INFO  SelectHotelTestPage:49 - Successfully selected hotel radio button
+2025-04-07 01:01:13 INFO  BasePage:36 - Successfully occur click operation.
+2025-04-07 01:01:13 INFO  SelectHotelTestPage:49 - Successfully clicked Continue button
+2025-04-07 01:01:13 INFO  SelectHotelTestPage:49 - Successfully navigated to Book A Hotel page
+2025-04-07 01:01:13 INFO  SelectHotelTestPage:89 - Book Hotel step screenshot
+2025-04-07 01:01:13 INFO  BaseTest:51 - Driver already initialized. Skipping URL reload.
+2025-04-07 01:01:14 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Entered First Name - <b><font color=yellow>Venkat</font></b>
+2025-04-07 01:01:14 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Entered Last Name - <b><font color=yellow>Ravi</font></b>
+2025-04-07 01:01:14 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Entered Billing Address - <b><font color=yellow>LondonStreet</font></b>
+2025-04-07 01:01:14 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Entered Credit Card No - <b><font color=yellow>1234567812345678</font></b>
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Selected Credit Card Type - <b><font color=yellow>VISA</font></b>
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Selected Expiry Month - <b><font color=yellow>March</font></b>
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Selected Expiry Year - <b><font color=yellow>2026</font></b>
+2025-04-07 01:01:14 INFO  BasePage:41 - Successfully occur sendkey operation.
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Entered CVV Number - <b><font color=yellow>143</font></b>
+2025-04-07 01:01:14 INFO  BasePage:36 - Successfully occur click operation.
+2025-04-07 01:01:14 INFO  BookHotelTestPage:49 - Clicked Book Now Button
+2025-04-07 01:01:20 INFO  BookHotelTestPage:89 - Booking Confirmation Screenshot
+2025-04-07 01:01:20 INFO  BaseTest:51 - Driver already initialized. Skipping URL reload.
+2025-04-07 01:01:21 INFO  JavaScriptExecutorUtil:60 - Executing Highlighting operation.
+2025-04-07 01:01:22 INFO  BookingConfirmationTestPage:49 - Order ID generated: <b><font color=yellow>UKYKT3V6D8</font></b>
+2025-04-07 01:01:22 INFO  BookingConfirmationTestPage:89 - Booking confirmation screenshot
+2025-04-07 01:01:24 INFO  JavaScriptExecutorUtil:60 - Executing Highlighting operation.
+2025-04-07 01:01:25 INFO  BasePage:36 - Successfully occur click operation.
+2025-04-07 01:01:27 INFO  BookingConfirmationTestPage:49 - Successfully clicked Logout
+2025-04-07 01:01:30 INFO  ITestListenerImpl:213 - Execution completed on UAT env ...
+2025-04-07 01:01:30 INFO  ITestListenerImpl:217 - Generated Report. . .
+2025-04-07 01:01:31 INFO  BaseTest:103 - Browser closed after all tests.

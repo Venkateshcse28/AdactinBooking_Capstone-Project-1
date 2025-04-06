@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="43.364" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Venkatesh\.m2\repository\webdriver\chromedriver\win64\114.0.5735.90\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\bbmautomation\target\test-classes;C:\bbmautomation\target\classes;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Venkatesh\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\Venkatesh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Venkatesh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Venkatesh\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Venkatesh\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\Venkatesh\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Venkatesh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Venkatesh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Venkatesh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Venkatesh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Venkatesh\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Venkatesh\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Venkatesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Venkatesh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Venkatesh\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Venkatesh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Venkatesh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Venkatesh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Venkatesh\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Venkatesh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi-scratchpad\4.1.1\poi-scratchpad-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Venkatesh\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Venkatesh\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Venkatesh\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\Venkatesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Venkatesh\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Venkatesh\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Venkatesh\.m2\repository\com\sikulix\sikulixapi\2.0.4\sikulixapi-2.0.4.jar;C:\Users\Venkatesh\.m2\repository\com\sikulix\sikulix2tigervnc\1.1.4\sikulix2tigervnc-1.1.4.jar;C:\Users\Venkatesh\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Venkatesh\.m2\repository\net\java\dev\jna\jna-platform\5.4.0\jna-platform-5.4.0.jar;C:\Users\Venkatesh\.m2\repository\net\oneandone\reflections8\reflections8\0.11.6\reflections8-0.11.6.jar;C:\Users\Venkatesh\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\Venkatesh\.m2\repository\org\slf4j\slf4j-nop\1.7.28\slf4j-nop-1.7.28.jar;C:\Users\Venkatesh\.m2\repository\net\sourceforge\tess4j\tess4j\5.3.0\tess4j-5.3.0.jar;C:\Users\Venkatesh\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Venkatesh\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.26\pdfbox-tools-2.0.26.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.26\pdfbox-debugger-2.0.26.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.4\jbig2-imageio-3.0.4.jar;C:\Users\Venkatesh\.m2\repository\net\sourceforge\lept4j\lept4j\1.16.2\lept4j-1.16.2.jar;C:\Users\Venkatesh\.m2\repository\org\jboss\jboss-vfs\3.2.17.Final\jboss-vfs-3.2.17.Final.jar;C:\Users\Venkatesh\.m2\repository\org\jboss\logging\jboss-logging\3.1.4.GA\jboss-logging-3.1.4.GA.jar;C:\Users\Venkatesh\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\pdfbox\2.0.20\pdfbox-2.0.20.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\fontbox\2.0.20\fontbox-2.0.20.jar;C:\Users\Venkatesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Venkatesh\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\Venkatesh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="webdriver.chrome.silentOutput" value="true"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Venkatesh\AppData\Local\Temp\surefire784859066459223832\surefirebooter322183242137307360.jar C:\Users\Venkatesh\AppData\Local\Temp\surefire784859066459223832 2025-02-17T16-06-23_249-jvmRun1 surefire2694211653439372038tmp surefire_07478216669237092610tmp"/>
+    <property name="surefire.test.class.path" value="C:\bbmautomation\target\test-classes;C:\bbmautomation\target\classes;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Venkatesh\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\Venkatesh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Venkatesh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Venkatesh\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\Venkatesh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\Venkatesh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\Venkatesh\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Venkatesh\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\Venkatesh\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Venkatesh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Venkatesh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Venkatesh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Venkatesh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Venkatesh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\Venkatesh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Venkatesh\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Venkatesh\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Venkatesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Venkatesh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Venkatesh\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Venkatesh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Venkatesh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Venkatesh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Venkatesh\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Venkatesh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\poi-scratchpad\4.1.1\poi-scratchpad-4.1.1.jar;C:\Users\Venkatesh\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Venkatesh\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Venkatesh\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Venkatesh\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\Venkatesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Venkatesh\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Venkatesh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Venkatesh\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Venkatesh\.m2\repository\com\sikulix\sikulixapi\2.0.4\sikulixapi-2.0.4.jar;C:\Users\Venkatesh\.m2\repository\com\sikulix\sikulix2tigervnc\1.1.4\sikulix2tigervnc-1.1.4.jar;C:\Users\Venkatesh\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\Venkatesh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Venkatesh\.m2\repository\net\java\dev\jna\jna-platform\5.4.0\jna-platform-5.4.0.jar;C:\Users\Venkatesh\.m2\repository\net\oneandone\reflections8\reflections8\0.11.6\reflections8-0.11.6.jar;C:\Users\Venkatesh\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\Venkatesh\.m2\repository\org\slf4j\slf4j-nop\1.7.28\slf4j-nop-1.7.28.jar;C:\Users\Venkatesh\.m2\repository\net\sourceforge\tess4j\tess4j\5.3.0\tess4j-5.3.0.jar;C:\Users\Venkatesh\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Venkatesh\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.26\pdfbox-tools-2.0.26.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.26\pdfbox-debugger-2.0.26.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.4\jbig2-imageio-3.0.4.jar;C:\Users\Venkatesh\.m2\repository\net\sourceforge\lept4j\lept4j\1.16.2\lept4j-1.16.2.jar;C:\Users\Venkatesh\.m2\repository\org\jboss\jboss-vfs\3.2.17.Final\jboss-vfs-3.2.17.Final.jar;C:\Users\Venkatesh\.m2\repository\org\jboss\logging\jboss-logging\3.1.4.GA\jboss-logging-3.1.4.GA.jar;C:\Users\Venkatesh\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\pdfbox\2.0.20\pdfbox-2.0.20.jar;C:\Users\Venkatesh\.m2\repository\org\apache\pdfbox\fontbox\2.0.20\fontbox-2.0.20.jar;C:\Users\Venkatesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Venkatesh\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\Venkatesh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Venkatesh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\bbmautomation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Venkatesh\AppData\Local\Temp\surefire784859066459223832\surefirebooter322183242137307360.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="Venkatesh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Venkatesh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VENKAT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\bbmautomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Venkatesh\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;C:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="demoBBM" classname="de.dimetis.bbm.testcases.DemoBBMTestcase" time="0.099">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at de.dimetis.bbm.testcases.DemoBBMTestcase.demoBBM(DemoBBMTestcase.java:48)
+]]></failure>
+    <system-out><![CDATA[2025-02-17 16:06:24 INFO  ConfigFileReader:33 - Successfully collected the details from config file.
+2025-02-17 16:06:24 INFO  ExtentReport:120 - Extent Report location initialized . . .
+2025-02-17 16:06:25 INFO  BaseTest:153 - Successfully launch Chrome Browser.
+2025-02-17 16:07:06 INFO  BaseTest:74 - Successfully open an URL.
+2025-02-17 16:07:06 INFO  BaseTest:86 - com.aventstack.extentreports.reporter.ExtentHtmlReporter@4816c290
+2025-02-17 16:07:06 INFO  BaseTest:87 - com.aventstack.extentreports.ExtentReports@16423501
+2025-02-17 16:07:06 INFO  BaseTest:88 - 
+2025-02-17 16:07:07 INFO  ITestListenerImpl:202 - Execution started on UAT env ...
+2025-02-17 16:07:07 INFO  DemoBBMTestcase:49 - URL is launched in the browser
+2025-02-17 16:07:07 ERROR LogindexPage:40 - Check Input
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.99)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7881JK4', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f296de5f1eb4cb4ac70e6562d0b20602, findElement {using=xpath, value=//input[@id='username']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49900/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f296de5f1eb4cb4ac70e6562d0b20602
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at de.dimetis.bbm.base.BasePage.doSendKeys(BasePage.java:35)
+	at de.dimetis.bbm.pages.LogindexPage.login(LogindexPage.java:46)
+	at de.dimetis.bbm.pages.LogindexPage.doUserSignIn(LogindexPage.java:37)
+	at de.dimetis.bbm.testcases.DemoBBMTestcase.demoBBM(DemoBBMTestcase.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+2025-02-17 16:07:07 INFO  DemoBBMTestcase:49 - Successfully logged in to user.
+2025-02-17 16:07:07 ERROR LogindexPage:59 - Check Input
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7881JK4', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f296de5f1eb4cb4ac70e6562d0b20602, executeScript {script=return document.readyState, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49900/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f296de5f1eb4cb4ac70e6562d0b20602
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at de.dimetis.bbm.utilities.JavaScriptExecutorUtil.waitForPageLoad(JavaScriptExecutorUtil.java:40)
+	at de.dimetis.bbm.pages.LogindexPage.navigateToDashBoardPage(LogindexPage.java:55)
+	at de.dimetis.bbm.testcases.DemoBBMTestcase.demoBBM(DemoBBMTestcase.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+2025-02-17 16:07:07 INFO  DemoBBMTestcase:49 - Successfully navigate to dashboard page
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Venkatesh/.m2/repository/org/slf4j/slf4j-nop/1.7.28/slf4j-nop-1.7.28.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Venkatesh/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.helpers.NOPLoggerFactory]
+Feb 17, 2025 4:06:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 17, 2025 4:06:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, so returning the closest version found: a no-op implementation
+Feb 17, 2025 4:06:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 133.
+Feb 17, 2025 4:06:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="closeBrowser" classname="de.dimetis.bbm.testcases.DemoBBMTestcase" time="0.554">
+    <failure message="invalid session id&#10;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#10;System info: host: &apos;DESKTOP-7881JK4&apos;, ip: &apos;192.168.0.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f296de5f1eb4cb4ac70e6562d0b20602, getWindowHandles {}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49900/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f296de5f1eb4cb4ac70e6562d0b20602" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7881JK4', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f296de5f1eb4cb4ac70e6562d0b20602, getWindowHandles {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49900/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f296de5f1eb4cb4ac70e6562d0b20602
+]]></failure>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7881JK4', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f296de5f1eb4cb4ac70e6562d0b20602, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49900/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f296de5f1eb4cb4ac70e6562d0b20602
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:348)
+	at de.dimetis.bbm.utilities.TakeScreenShot.takeScreenShot(TakeScreenShot.java:86)
+	at de.dimetis.bbm.report.ITestListenerImpl.onTestFailure(ITestListenerImpl.java:143)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]></system-err>
+  </testcase>
+</testsuite>

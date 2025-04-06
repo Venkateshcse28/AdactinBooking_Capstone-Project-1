@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 43.364 s <<< FAILURE! - in TestSuite
+de.dimetis.bbm.testcases.DemoBBMTestcase.demoBBM  Time elapsed: 0.099 s  <<< FAILURE!
+java.lang.NullPointerException
+	at de.dimetis.bbm.testcases.DemoBBMTestcase.demoBBM(DemoBBMTestcase.java:48)
+
+de.dimetis.bbm.testcases.DemoBBMTestcase.closeBrowser  Time elapsed: 0.554 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7881JK4', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f296de5f1eb4cb4ac70e6562d0b20602, getWindowHandles {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49900/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f296de5f1eb4cb4ac70e6562d0b20602
+

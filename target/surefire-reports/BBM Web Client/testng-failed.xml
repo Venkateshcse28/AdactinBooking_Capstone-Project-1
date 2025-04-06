@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BBM Web Client]">
+  <listeners>
+    <listener class-name="de.dimetis.bbm.report.ITestListenerImpl"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Application Chrome Test Cases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="de.dimetis.bbm.testcases.DemoBBMTestcase">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="demoBBM" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- de.dimetis.bbm.testcases.DemoBBMTestcase -->
+    </classes>
+  </test> <!-- Application Chrome Test Cases(failed) -->
+</suite> <!-- Failed suite [BBM Web Client] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dimetis Test Automation Regression Suite]">
+  <test thread-count="5" name="Application BBM(failed)">
+    <classes>
+      <class name="de.dimetis.bbm.testcases.ContactDisplyTestPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ContactTest" invocation-numbers="1 2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- de.dimetis.bbm.testcases.ContactDisplyTestPage -->
+    </classes>
+  </test> <!-- Application BBM(failed) -->
+</suite> <!-- Failed suite [Dimetis Test Automation Regression Suite] -->

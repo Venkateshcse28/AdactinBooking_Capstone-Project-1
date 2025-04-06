@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]">
+  <test thread-count="5" name="Contact List App Tests(failed)">
+    <classes>
+      <class name="de.dimetis.bbm.testcases.LoginPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Signup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- de.dimetis.bbm.testcases.LoginPageTest -->
+      <class name="de.dimetis.bbm.testcases.SignUpPageTestcase">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Signup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- de.dimetis.bbm.testcases.SignUpPageTestcase -->
+    </classes>
+  </test> <!-- Contact List App Tests(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
