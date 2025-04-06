@@ -3,16 +3,16 @@
 <suite name="AdactinHotelSuite" parallel="false">
 
     <listeners>
-        <listener class-name="de.dimetis.guvi.report.ITestListenerImpl"/>
+        <listener class-name="de.chennai.guvi.report.ITestListenerImpl"/>
     </listeners>
 
     <test name="AdactinHotelTestFlow">
         <classes>
-            <class name="de.dimetis.guvi.testcases.LoginPageTest"/>
-            <class name="de.dimetis.guvi.testcases.SearchHotelTestPage"/>
-            <class name="de.dimetis.guvi.testcases.SelectHotelTestPage"/>
-            <class name="de.dimetis.guvi.testcases.BookHotelTestPage"/>
-            <class name="de.dimetis.guvi.testcases.BookingConfirmationTestPage"/>
+            <class name="de.chennai.guvi.testcases.LoginPageTest"/>
+            <class name="de.chennai.guvi.testcases.SearchHotelTestPage"/>
+            <class name="de.chennai.guvi.testcases.SelectHotelTestPage"/>
+            <class name="de.chennai.guvi.testcases.BookHotelTestPage"/>
+            <class name="de.chennai.guvi.testcases.BookingConfirmationTestPage"/>
         </classes>
     </test>
 
